@@ -1,0 +1,751 @@
+.navbar {
+    overflow: hidden;
+    background-color: #1D24CA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar .menu_navbar{
+    padding-right: 50px;
+}
+
+.navbar .menu_navbar a:hover {
+    background-color: #ffffff;
+    color: #1D24CA;
+}
+
+.navbar  .menu_navbar a{
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.navbar .logo a {
+    color: #ffffff;
+    text-decoration: none;
+    display: flex; /* Menjadikan logo sebagai elemen flex */
+    align-items: center; 
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;padding-left: 50px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.isi {
+    position: relative;
+    background-image: url(foto_pelatdah_bersama.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.isi{
+    padding: 100px;
+}
+
+.isi .ucapan_selamat h1 {
+    color: #dcd5d5;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    filter: brightness(1);
+    font-size: 50px;
+    z-index: 1;
+}
+
+.isi .ucapan_selamat p {
+    color: #dcd5d5;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    filter: brightness(1);
+    font-size: 20px;
+    z-index: 1;
+}
+
+
+.pengertian_coconut {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 100px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.pengertian_coconut h2 {
+    color: #4a4747;
+    font-size: 30px;
+    text-align: center;
+}
+
+.pengertian_coconut p {
+    color: #4a4747;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+/* Style untuk sejarah_coconut */
+.sejarah_coconut {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 100px;
+    padding-bottom: 0;
+    padding-top: 20px;
+}
+
+.sejarah_coconut h2 {
+    color: #4a4747;
+    font-size: 0px;
+    text-align: center;
+}
+
+.sejarah_coconut p {
+    font-size: 16px;
+    color: #4a4747;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.calgot{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 100px;
+    padding-bottom: 0;
+}
+
+.calgot h1 {
+    text-align: center;
+}
+
+.calgot p {
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.data {
+    padding: 20px;
+    display: grid;
+    justify-content: center;
+    align-items: flex-end;
+    grid-template-columns: auto auto auto ;
+   
+}
+
+.data h3{
+    font-size: 20px;
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+.data img{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    align-content: center;
+    margin: 15px;
+    object-fit: cover;
+}
+
+.data h4{
+    margin-bottom: 0;
+}
+
+.data p{
+    font-size: 15px;
+    margin-top: 3px;
+    margin: 10px;
+}
+
+.data .syaripuddin {
+    background-color: #f3eced;
+    width: 300px;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 15px;
+}
+
+.data .syaripuddin:hover{
+    transform: scale(1.1);
+}
+
+.data .faisal {
+    background-color: #f3eced;
+    width: 300px;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 15px;
+}
+
+.data .faisal:hover{
+    transform: scale(1.1);
+}
+
+
+
+.data .aksan {
+    background-color: #f3eced;
+    width: 300px;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 15px;
+}
+
+.data .aksan:hover{
+    transform: scale(1.1);
+}
+
+
+.data .ipa {
+    background-color: #f3eced;
+    width: 300px;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 15px;
+}
+
+.data .ipa:hover{
+    transform: scale(1.1);
+}
+
+
+.data .citra {
+    background-color: #f3eced;
+    width: 300px;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 15px;
+}
+
+.data .citra:hover{
+    transform: scale(1.1);
+}
+
+.data .tika {
+    background-color: #f3eced;
+    width: 300px;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 15px;
+}
+
+.data .tika:hover{
+    transform: scale(1.1);
+}
+
+.data .syahrul {
+    background-color: #f3eced;
+    width: 300px;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 15px;
+}
+
+.data .syahrul:hover{
+    transform: scale(1.1);
+}
+
+.data .kiki {
+    background-color: #f3eced;
+    width: 300px;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 15px;
+}
+
+.data   .kiki:hover{
+    transform: scale(1.1);
+}
+
+.data .salsa {
+    background-color: #f3eced;
+    width: 300px;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 15px;
+}
+
+.data .salsa:hover{
+    transform: scale(1.1);
+}
+
+.data .syarif {
+    background-color: #f3eced;
+    width: 300px;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 15px;
+}
+
+
+.data .parwati {
+    background-color: #f3eced;
+    width: 300px;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 15px;
+}
+
+.data .parwati:hover{
+    transform: scale(1.1);
+}
+
+.data .fikri {
+    background-color: #f3eced;
+    width: 300px;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 15px;
+}
+
+.data .fikri:hover{
+    transform: scale(1.1);
+}
+
+.data .yusuf {
+    background-color: #f3eced;
+    width: 300px;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 15px;
+}
+
+.data .yusuf:hover{
+    transform: scale(1.1);
+}
+
+.data .fahri {
+    background-color: #f3eced;
+    width: 300px;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 15px;
+}
+
+.data .fahri:hover{
+    transform: scale(1.1);
+}
+
+.data .amel {
+    background-color: #f3eced;
+    width: 300px;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 15px;
+}
+
+.data .amel:hover{
+    transform: scale(1.1);
+}
+
+.data .windu {
+    background-color: #f3eced;
+    width: 300px;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 15px;
+}
+
+.data .windu:hover{
+    transform: scale(1.1);
+}
+
+.data .galang {
+    background-color: #f3eced;
+    width: 300px;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 15px;
+}
+
+.data .galang:hover{
+    transform: scale(1.1);
+}
+
+.data .fatir {
+    background-color: #f3eced;
+    width: 300px;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 15px;
+}
+
+.data .fatir:hover{
+    transform: scale(1.1);
+}
+
+.galeri h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.galeri .root {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.galeri .root h2 {
+    margin-bottom: 0;
+}
+
+.galeri .root h3 {
+    margin-top: 0;
+    display: block;
+}
+
+.galeri .root .gambar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galeri .root .gambar a {
+    margin: 5px;
+    text-decoration: none;
+}
+
+.galeri .root .gambar a img {
+    width: 300px; /* Sesuaikan dengan lebar gambar yang diinginkan */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(87, 81, 81, 0.3);
+    cursor: pointer;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out; /* Efek transisi untuk smooth hover */
+}
+
+.galeri .root .gambar a img:hover {
+    transform: scale(1.05); 
+    box-shadow: 15px 15px 15px rgba(87, 81, 81, 0.5);
+}
+
+
+
+.galeri .pembelajaran {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.galeri .pembelajaran h2 {
+    margin-bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.gambar .platda h3{
+    margin-top: 0;
+    display: block;
+}
+ 
+.galeri .pembelajaran .gambar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galeri .pembelajaran .gambar a {
+    margin: 5px;
+    text-decoration: none;
+}
+
+.galeri .pembelajaran .gambar a img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(87, 81, 81, 0.3);
+    cursor: pointer;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.galeri .pembelajaran .gambar a img:hover {
+    transform: scale(1.05); 
+    box-shadow: 15px 15px 15px rgba(87, 81, 81, 0.5); 
+}
+
+
+
+.galeri .platda {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.galeri .platda h2 {
+    margin-bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+
+.galeri .platda h3{
+    display: block;
+    padding-top: 0;
+    margin-top: 0;
+}
+ 
+.galeri .platda .gambar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galeri .platda .gambar a {
+    margin: 5px;
+    text-decoration: none;
+}
+
+.galeri .platda .gambar a img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(87, 81, 81, 0.3);
+    cursor: pointer;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.galeri .platda .gambar a img:hover {
+    transform: scale(1.05); 
+    box-shadow: 15px 15px 15px rgba(87, 81, 81, 0.5); 
+}
+
+.about h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    padding: 150px;
+}
+
+.about {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 100px;
+    padding-top: 0;
+}
+
+.about h1 {
+    padding-bottom: 0;
+}
+
+.about .biodata img{
+    width: 30%;
+    height: auto;
+    float: left;
+    border-radius: 20px;
+    align-items: center;
+    padding: 30px;
+    display: block;
+    padding-right: 0;
+}
+
+.about .biodata .bio {
+    overflow: hidden;
+    padding: 50px;
+    text-align: justify;
+}
+
+.about  .biodata {
+    background-color: #e6e1e1;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    margin: 10px;
+}
+
+.about  h2 {
+    text-align: center;
+    padding: 15px;
+}
+
+.about h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.about .kontak {
+    width: 100%;
+    height: 30px;
+    float: left;
+    display: flex;
+    
+}
+
+.about .kontak h3 {
+    padding: 0;
+    margin: 0;
+    margin-left: 15px;
+    text-align: center;
+}
+
+.about .kontak .wa,
+.about .kontak .gmail {
+    width: 48%;
+    height: 200px;
+
+}
+
+.about .kontak .wa img, 
+.about .kontak .gmail img {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 230px;
+}
+
+.about .kontak .wa h4{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.about .kontak .gmail h4{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.foter{
+    background-color: #1D24CA;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 30px;
+    margin-top: 150px;
+    padding-bottom: 30px;
+}
+
+.foter .logo img{
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+
+}
+
+.foter .sosmed h4,
+.foter .nav{
+    color:#ffffff ;
+    padding-bottom: 0;
+    margin-bottom: 10px;
+}
+
+.foter .sosmed a img{
+    width: 50px;
+    height: 50px;
+}
+
+.foter .nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 250px;
+    padding-right: 250px;
+    
+    
+}
+
+.foter {
+    color: white;
+    text-align: center;
+}
+
+.foter .nav .nav1,
+.foter .nav .nav2{
+    width: 50%;
+    height: auto;
+    text-align: left;
+    margin-left: 200px;
+}
+
+.foter .nav .nav1 a h5{
+    margin: 0;
+    color: white;
+}
+
+.foter .nav .nav2 a h5{
+    padding: 5px;
+    margin: 7px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
